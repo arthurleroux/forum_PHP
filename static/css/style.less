@@ -1,0 +1,221 @@
+.navbar-default {
+  background-color: rgb(228, 76, 101);
+  border: none;
+  border-radius: 0;
+  .navbar-brand {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #ffffff;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    &:hover {
+      color: rgb(28, 29, 38);
+    }
+  }
+  .navbar-nav > li > a {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: rgb(28, 29, 38);
+    font-weight: 700;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    &:hover {
+      color: #ffffff;
+    }
+  }
+  .navbar-toggle {
+    border-color: transparent;
+    .icon-bar {
+      background-color: rgb(28, 29, 38);
+    }
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}
+
+body {
+  background-color: rgb(28, 29, 38);
+  color: #ffffff;
+}
+
+#hi {
+  line-height: 20px;
+  position: relative;
+  display: block;
+  padding: 15px 15px;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: rgb(28, 29, 38);
+}
+
+#login, #register, #new_topic {
+  form {
+    max-width: 420px;
+    margin: 50px auto;
+  }
+  .input {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid rgb(228, 76, 101);
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+    height: 60px;
+  }
+  [type="submit"] {
+    width: 100%;
+    background: rgb(39, 40, 51);
+    border-radius: 5px;
+    border: 2px solid rgb(228, 76, 101);
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    font-weight: 400;
+    height: 60px;
+  }
+  [type="submit"]:hover {
+    background: rgb(228, 76, 101);
+  }
+}
+
+#topics {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 2px solid rgb(228, 76, 101);
+  border-radius: 5px;
+  padding: 30px 0 30px 0;
+  hr {
+    width: 60%;
+
+  }
+}
+
+#members_list {
+  margin-top: 50px;
+  border: 2px solid rgb(228, 76, 101);
+  border-radius: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  form {
+    [type="submit"] {
+      color: #ffffff;
+      background: rgb(28, 29, 38);
+      border: 2px solid #ffffff;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 24px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      transition: all 0.3s;
+      font-weight: 400;
+      height: 60px;
+      width: 30%;
+      &:hover {
+        color: rgb(28, 29, 38);
+        background-color: #ffffff;
+      }
+      margin-top: 10px;
+    }
+  }
+}
+
+#single_topic {
+  margin-top: 50px;
+  border: 2px solid rgb(228, 76, 101);
+  border-radius: 5px;
+  padding: 50px 60px 50px 60px;
+  form {
+    background-color: #ffffff;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    .input {
+      font-weight: 500;
+      font-size: 18px;
+      border-radius: 5px;
+      line-height: 22px;
+      background-color: transparent;
+      border: 2px solid rgb(39, 40, 51);
+      transition: all 0.3s;
+      padding: 13px;
+      box-sizing: border-box;
+      outline: 0;
+      color: rgb(39, 40, 51);
+      width: 100%;
+    }
+    [type="submit"] {
+      float: right;
+      color: #ffffff;
+      background: rgb(39, 40, 51);
+      border: 2px solid rgb(28, 29, 38);
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 24px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      transition: all 0.3s;
+      font-weight: 400;
+      height: 60px;
+      width: 100%;
+      &:hover {
+        background-color: rgb(28, 29, 38);
+      }
+      margin-top: 10px;
+    }
+  }
+}
+
+textarea {
+  max-width: 100%;
+  height: 100px !important;
+}
+
+.col-name {
+  color: rgb(228, 76, 101);
+  margin-bottom: 40px;
+}
+
+.topic {
+  margin-top: 10px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  color: #ffffff;
+  &:hover {
+    color: rgb(228, 76, 101);
+    border-color: rgb(228, 76, 101);
+  }
+}
+
+a {
+  color: #ffffff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  &:hover {
+    text-decoration: none;
+    color: rgb(228, 76, 101);
+  }
+}
+
+
